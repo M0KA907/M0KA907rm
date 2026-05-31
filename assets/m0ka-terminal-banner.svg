@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">M0KA907 terminal profile banner</title>
-  <desc id="desc">A dark CRT-inspired banner with punk patches, terminal text, and 80s computer zine styling.</desc>
+  <desc id="desc">A dark CRT-inspired banner with terminal text, photocopied texture, and compact systems-work styling.</desc>
   <defs>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
       <stop offset="0" stop-color="#050509"/>
@@ -12,7 +12,7 @@
       <stop offset="1" stop-color="#fb7185"/>
     </linearGradient>
     <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -53,7 +53,7 @@
     <text class="mono label" x="0" y="0" fill="#a7f3d0">BOOTING /HOME/M0KA</text>
     <text class="mono big" x="0" y="104" fill="url(#amber)" filter="url(#glow)">M0KA907</text>
     <text class="mono term" x="4" y="150" fill="#e5e7eb">arch linux // static web // shell tools // mods // repairs</text>
-    <text class="mono tiny" x="4" y="188" fill="#fb7185">NO CLOUD KINGS · NO USELESS PANELS · COMMIT THE FIX · KEEP THE FALLBACK</text>
+    <text class="mono tiny" x="4" y="188" fill="#fb7185">LOCAL FILES · SMALL FIXES · FAST ROLLBACK · NO EXTRA PANELS</text>
   </g>
 
   <g transform="translate(838 78) rotate(-3)">
@@ -64,12 +64,12 @@
 
   <g transform="translate(854 165) rotate(4)">
     <rect x="0" y="0" width="230" height="66" rx="7" fill="#1f0a0a" stroke="#fb7185" stroke-width="3"/>
-    <text class="mono" x="22" y="41" fill="#fbbf24" font-size="24" font-weight="900">DIY OR DEBUG</text>
+    <text class="mono" x="22" y="41" fill="#fbbf24" font-size="24" font-weight="900">FIX THE PATH</text>
   </g>
 
   <g transform="translate(884 244) rotate(-5)">
     <rect x="0" y="0" width="190" height="54" rx="6" fill="#020617" stroke="#a78bfa" stroke-width="3"/>
-    <text class="mono" x="18" y="35" fill="#a7f3d0" font-size="20" font-weight="900">PATCHED DENIM</text>
+    <text class="mono" x="18" y="35" fill="#a7f3d0" font-size="20" font-weight="900">READ THE LOG</text>
   </g>
 
   <g transform="translate(710 92)" opacity="0.78">
@@ -82,8 +82,8 @@
   </g>
 
   <g class="mono tiny" fill="#f8fafc" opacity="0.5">
-    <text x="78" y="318">C:\\M0KA&gt; repair.exe --fast --weird --documented</text>
-    <text x="768" y="318">STATUS: loud laptop stickers / quiet useful code</text>
+    <text x="78" y="318">C:\\M0KA&gt; repair.exe --documented --reversible</text>
+    <text x="768" y="318">STATUS: old machine smell / clear commit history</text>
   </g>
   <rect width="1200" height="360" filter="url(#rough)" opacity="0.7"/>
 </svg>
