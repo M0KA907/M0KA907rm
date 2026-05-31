@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://m0ka907.github.io/">
-    <img src="./assets/moka-button.svg" alt="MOKA">
+    <img src="./assets/moka-button.svg" alt="M0KA907">
   </a>
 </p>
 
