@@ -1,89 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">M0KA907 terminal profile banner</title>
-  <desc id="desc">A dark CRT-inspired banner with terminal text, photocopied texture, and compact systems-work styling.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">M0KA907 monochrome profile banner</title>
+  <desc id="desc">A stark black and white terminal banner matching a minimal manga and zine style.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#050509"/>
-      <stop offset="0.52" stop-color="#11111f"/>
-      <stop offset="1" stop-color="#26100d"/>
-    </linearGradient>
-    <linearGradient id="amber" x1="0" x2="1">
-      <stop offset="0" stop-color="#fbbf24"/>
-      <stop offset="1" stop-color="#fb7185"/>
-    </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2.2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <filter id="rough">
-      <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="2" stitchTiles="stitch"/>
+    <filter id="paper">
+      <feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="2" stitchTiles="stitch"/>
       <feColorMatrix type="saturate" values="0"/>
-      <feComponentTransfer>
-        <feFuncA type="table" tableValues="0 0.12"/>
-      </feComponentTransfer>
-      <feBlend mode="screen" in2="SourceGraphic"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 0.08"/></feComponentTransfer>
+      <feBlend mode="multiply" in2="SourceGraphic"/>
     </filter>
-    <pattern id="scan" width="8" height="8" patternUnits="userSpaceOnUse">
-      <rect width="8" height="8" fill="transparent"/>
-      <rect y="0" width="8" height="1" fill="#ffffff" opacity="0.08"/>
-    </pattern>
-    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
-      <path d="M34 0H0V34" fill="none" stroke="#8b5cf6" stroke-width="0.6" opacity="0.16"/>
+    <pattern id="scan" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#fff"/>
+      <rect y="0" width="10" height="1" fill="#000" opacity="0.06"/>
     </pattern>
     <style>
       .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,Liberation Mono,monospace}
-      .label{font-size:20px;letter-spacing:3px}
-      .tiny{font-size:15px;letter-spacing:1.5px}
-      .term{font-size:22px;letter-spacing:1px}
-      .big{font-size:86px;font-weight:900;letter-spacing:7px}
+      .big{font-size:82px;font-weight:900;letter-spacing:6px}
+      .small{font-size:19px;letter-spacing:1.8px}
+      .tiny{font-size:14px;letter-spacing:1.2px}
     </style>
   </defs>
 
-  <rect width="1200" height="360" fill="url(#bg)"/>
-  <rect width="1200" height="360" fill="url(#grid)"/>
-  <rect width="1200" height="360" fill="url(#scan)"/>
-  <rect x="28" y="24" width="1144" height="312" rx="24" fill="#08080d" opacity="0.86" stroke="#f59e0b" stroke-width="2"/>
-  <path d="M48 58H1152M48 296H1152" stroke="#eab308" stroke-width="1.5" opacity="0.35"/>
-  <path d="M88 32l-28 28 28 28M1112 32l28 28-28 28M88 328l-28-28 28-28M1112 328l28-28-28-28" fill="none" stroke="#f97316" stroke-width="4" opacity="0.55"/>
+  <rect width="1200" height="260" fill="#fff"/>
+  <rect width="1200" height="260" fill="url(#scan)"/>
+  <rect x="24" y="22" width="1152" height="216" fill="none" stroke="#000" stroke-width="4"/>
+  <path d="M24 70H1176M24 198H1176" stroke="#000" stroke-width="2"/>
 
-  <g transform="translate(76 86)">
-    <text class="mono label" x="0" y="0" fill="#a7f3d0">BOOTING /HOME/M0KA</text>
-    <text class="mono big" x="0" y="104" fill="url(#amber)" filter="url(#glow)">M0KA907</text>
-    <text class="mono term" x="4" y="150" fill="#e5e7eb">arch linux // static web // shell tools // mods // repairs</text>
-    <text class="mono tiny" x="4" y="188" fill="#fb7185">LOCAL FILES · SMALL FIXES · FAST ROLLBACK · NO EXTRA PANELS</text>
+  <g transform="translate(54 50)">
+    <text class="mono tiny" x="0" y="0" fill="#000">/home/m0ka :: static pages, shell tools, configs, repair notes</text>
+    <text class="mono big" x="0" y="92" fill="#000">M0KA907</text>
+    <text class="mono small" x="4" y="128" fill="#000">linux systems // static web // automation // modding</text>
+    <text class="mono tiny" x="4" y="168" fill="#000">plain files. hard edges. no broken profile widgets.</text>
   </g>
 
-  <g transform="translate(838 78) rotate(-3)">
-    <rect x="0" y="0" width="250" height="70" rx="10" fill="#111827" stroke="#f8fafc" stroke-width="3"/>
-    <path d="M10 12h230M18 58h214" stroke="#f8fafc" opacity="0.2"/>
-    <text class="mono" x="22" y="43" fill="#f8fafc" font-size="25" font-weight="800">LOCAL FIRST</text>
+  <g transform="translate(820 40)">
+    <path d="M120 0c-45 4-80 30-89 76-5 26 2 58 22 77 23 22 62 24 90 9 34-19 50-58 42-94C178 31 157 1 120 0z" fill="#000"/>
+    <path d="M82 32c-50 4-82 38-82 82 0 34 16 68 44 87 28 18 62 17 87 3-37-4-58-24-66-52-8-28-2-62 17-120z" fill="#000"/>
+    <path d="M51 78l-22 17 28 4-23 22 39-10 6 31 11-35 30 16-20-31 25-22-34 6-7-31-12 30z" fill="#fff" stroke="#000" stroke-width="5"/>
+    <path d="M52 80l36 44M93 68L48 132M39 101l76-10" stroke="#000" stroke-width="4"/>
+    <path d="M20 168h176M46 188h126M72 208h78" stroke="#000" stroke-width="6"/>
+    <rect x="212" y="36" width="120" height="64" fill="#fff" stroke="#000" stroke-width="4"/>
+    <path d="M226 62h72M226 80h46" stroke="#000" stroke-width="4"/>
+    <rect x="226" y="122" width="92" height="46" fill="#000"/>
+    <text class="mono tiny" x="238" y="151" fill="#fff">LOGS</text>
   </g>
 
-  <g transform="translate(854 165) rotate(4)">
-    <rect x="0" y="0" width="230" height="66" rx="7" fill="#1f0a0a" stroke="#fb7185" stroke-width="3"/>
-    <text class="mono" x="22" y="41" fill="#fbbf24" font-size="24" font-weight="900">FIX THE PATH</text>
-  </g>
-
-  <g transform="translate(884 244) rotate(-5)">
-    <rect x="0" y="0" width="190" height="54" rx="6" fill="#020617" stroke="#a78bfa" stroke-width="3"/>
-    <text class="mono" x="18" y="35" fill="#a7f3d0" font-size="20" font-weight="900">READ THE LOG</text>
-  </g>
-
-  <g transform="translate(710 92)" opacity="0.78">
-    <path d="M40 0l14 29 32 4-23 22 6 32-29-15-29 15 6-32L-6 33l32-4z" fill="none" stroke="#e5e7eb" stroke-width="2"/>
-    <path d="M22 104h74M32 124h54M42 144h34" stroke="#e5e7eb" stroke-width="3"/>
-    <circle cx="59" cy="67" r="28" fill="none" stroke="#e5e7eb" stroke-width="3"/>
-    <circle cx="49" cy="61" r="4" fill="#e5e7eb"/>
-    <circle cx="69" cy="61" r="4" fill="#e5e7eb"/>
-    <path d="M49 77h20" stroke="#e5e7eb" stroke-width="3"/>
-  </g>
-
-  <g class="mono tiny" fill="#f8fafc" opacity="0.5">
-    <text x="78" y="318">C:\\M0KA&gt; repair.exe --documented --reversible</text>
-    <text x="768" y="318">STATUS: old machine smell / clear commit history</text>
-  </g>
-  <rect width="1200" height="360" filter="url(#rough)" opacity="0.7"/>
+  <path d="M42 36l-18-20M1158 36l18-20M42 224l-18 20M1158 224l18 20" stroke="#000" stroke-width="5"/>
+  <rect width="1200" height="260" filter="url(#paper)" opacity="0.9"/>
 </svg>
