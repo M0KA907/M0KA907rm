@@ -1,152 +1,156 @@
 <!--
-  Profile README for M0KA907.
-  Static-first, GitHub-safe, readable without external images.
+  M0KA907 profile README.
+  GitHub-safe: Markdown + sanitized HTML + repo-local SVGs.
+  No scripts. No iframe junk. No fragile profile gimmick required to understand the page.
 -->
 
 <div align="center">
+  <img src="./assets/m0ka-terminal-banner.svg" alt="M0KA907 — Linux systems, static web, shell tools, mods, and repairs" width="100%">
+</div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=170&color=0:0f172a,55:7c3aed,100:f59e0b&text=M0KA907&fontAlign=50&fontAlignY=37&fontColor=f8fafc&fontSize=46&desc=Linux%20systems%20%E2%80%A2%20static%20web%20%E2%80%A2%20automation%20%E2%80%A2%20weird%20useful%20tools&descAlign=50&descAlignY=63" alt="M0KA907 profile banner" />
+<div align="center">
 
 # Dawn / M0KA
 
-**Linux tinkerer, static-web builder, automation wrangler, game/modding gremlin, and practical toolmaker.**
+**Linux systems · static web · shell tools · game/modding workflows · repair-minded docs**
 
-[![Portfolio](https://img.shields.io/badge/portfolio-m0ka907.github.io-f59e0b?style=for-the-badge&logo=githubpages&logoColor=black)](https://m0ka907.github.io/)
-[![GitHub](https://img.shields.io/badge/github-M0KA907-8b5cf6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/M0KA907)
-[![Arch Linux](https://img.shields.io/badge/arch-linux-1793d1?style=for-the-badge&logo=archlinux&logoColor=white)](https://archlinux.org/)
-[![No JS](https://img.shields.io/badge/profile-static_markdown-22c55e?style=for-the-badge)](#)
+[portfolio](https://m0ka907.github.io/) · [github](https://github.com/M0KA907) · [public workbench](#public-workbench) · [operating rules](#operating-rules)
 
 </div>
 
 ---
 
-## `whoami`
-
 ```txt
-handle      :: M0KA907
-mode        :: build small useful software, repair messy systems, document the path
-base        :: Alaska
-stack       :: Arch Linux, shell, web fundamentals, automation, GitHub Pages, low-level experiments
-style       :: compact cyberpunk utility, practical docs, fast fallbacks, no useless dashboard sludge
+╭─ M0KA907 // login shell ─────────────────────────────────────────╮
+│ user      dawn / m0ka                                            │
+│ base      alaska                                                 │
+│ machine   arch linux, i3, terminal tabs, too many half-built rigs │
+│ work      useful static sites, scripts, configs, docs, repair     │
+│ taste     80s computer room / black metal flyer / crust patch     │
+│ rule      make it load, make it legible, make rollback obvious    │
+╰──────────────────────────────────────────────────────────────────╯
 ```
 
-I like software that can be understood, repaired, forked, and run without begging a cloud service for permission. My work sits around **Linux desktop tooling**, **static sites**, **small utilities**, **agent/Codex/Claude workflows**, **game config/modding**, **repo cleanup**, and **hardware/device support**.
+I build and patch small systems that should keep working when the pretty layer fails. Static pages. Linux utilities. Repo cleanup. GitHub Pages portfolios. Automation harnesses. Game configs. Device and console modding workflows. Repair notes that a sleep-deprived future me can still follow.
 
----
+<div align="center">
+  <img src="./assets/noise-divider.svg" alt="static markdown signal divider" width="100%">
+</div>
 
-## Current operating loop
+## Workbench
+
+<div align="center">
+  <img src="./assets/workbench-card.svg" alt="M0KA907 workbench: Linux, web, modding, docs" width="100%">
+</div>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Build
+### Build pile
 
-- Static GitHub Pages sites with real fallback HTML.
-- Clean profile and portfolio systems that still work when APIs fail.
-- Small shell utilities and Linux packages.
-- Practical automation for repetitive dev chores.
-
-</td>
-<td width="50%" valign="top">
-
-### Harden
-
-- Reduce bloat before adding features.
-- Keep rollback obvious.
-- Prefer simple files over fragile services.
-- Test links, fallbacks, and performance instead of trusting vibes.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### Mod
-
-- Game configs, performance passes, Source/Valve tinkering.
-- Device and console modding workflows.
-- Retro console cleaning/repair support.
-- PC build planning and troubleshooting.
+- Static GitHub Pages sites with actual fallback content.
+- Small Linux tools, package workflows, terminal-first utilities.
+- Portfolio/profile systems that do not collapse when an API flakes.
+- Agent/Codex/Claude handoffs that cut vague tasks into shippable patches.
 
 </td>
 <td width="50%" valign="top">
 
-### Document
+### Repair pile
 
-- READMEs that explain how to use, test, and revert work.
-- Agent handoff files for Codex/Claude loops.
-- Compact task briefs that remove ambiguity.
-- Reproducible commands over vague instructions.
+- Arch/i3 desktop fixes, shell cleanup, performance triage.
+- Retro console/device cleaning and modding workflows.
+- PC build planning, troubleshooting, and practical upgrade advice.
+- Game configs, Source/Valve tuning, mod packaging, weird edge cases.
 
 </td>
 </tr>
 </table>
 
----
-
 ## Public workbench
 
-| Repo | What it signals |
-|---|---|
-| [`M0KA907.github.io`](https://github.com/M0KA907/M0KA907.github.io) | Main portfolio site, GitHub Pages surface, static-web UX experiments. |
-| [`Beer`](https://github.com/M0KA907/Beer) | Small Linux/package-oriented utility work; joke tool, real packaging habits. |
-| [`Home-Helpdesk`](https://github.com/M0KA907/Home-Helpdesk) | Lightweight home/helpdesk workflow experiments. |
-| [`Mokalc`](https://github.com/M0KA907/Mokalc) | Small utility/tooling repo; part of the personal lab bench. |
+| Project | Shape | Why it exists |
+|---|---:|---|
+| [`M0KA907.github.io`](https://github.com/M0KA907/M0KA907.github.io) | portfolio | Static GitHub Pages surface for public work, identity, and client-facing proof. |
+| [`Beer`](https://github.com/M0KA907/Beer) | linux toy/tool | Joke command with real packaging habits: small scope, installable, understandable. |
+| [`Home-Helpdesk`](https://github.com/M0KA907/Home-Helpdesk) | helpdesk | Lightweight support workflow experiments for home/device troubleshooting. |
+| [`Mokalc`](https://github.com/M0KA907/Mokalc) | utility | Small-tool lab bench; calculator/tooling style repo. |
 
-> Some work stays private while it is messy, client-shaped, experimental, or not ready to be useful to anyone else.
+> Private repos stay private when they are client-shaped, unfinished, experimental, or too messy to be useful.
 
----
+## Skill board
 
-## Skill matrix
-
-| Area | Comfortable with | Current sharpening |
+| Area | I can do | I am sharpening |
 |---|---|---|
-| Linux | Arch/i3 setup, shell tools, package workflows, desktop repair | cleaner install scripts, reproducible dotfile patterns |
-| Web | HTML/CSS/JS, GitHub Pages, performance-minded static sites | better mobile UX, accessibility, graceful API failure |
-| Automation | task briefs, repo checks, agent handoffs, local scripts | cheaper multi-agent loops, test-first patch flows |
-| Hardware | PC builds, troubleshooting, console/device cleaning and repair | cleaner service docs, repeatable diagnostics |
-| Games | configs, modding, performance tuning, Source/Valve tooling | public writeups and reusable config packs |
-| Docs | compact READMEs, rollback notes, usage instructions | sharper proof/testing sections |
-
----
-
-## Design rules I try to follow
-
-```txt
-01. Make it load before making it pretty.
-02. Make it readable before making it clever.
-03. Make rollback cheap.
-04. Keep the static path useful when APIs, CDNs, or JavaScript fail.
-05. Remove duplicated UI before adding another panel.
-06. Prefer one clean command over five half-documented steps.
-07. Treat documentation as part of the build, not an afterthought.
-```
-
----
-
-## Live-ish cards
-
-These are optional vanity cards. If their external providers fail, the README still works because the useful content is plain Markdown above.
+| Linux | Arch setup, i3 workflow, shell tools, package habits, desktop repair | cleaner one-shot setup scripts and safer rollback paths |
+| Web | HTML/CSS/JS, GitHub Pages, static-first UX, mobile cleanup | accessibility, measured performance, failure-state design |
+| Automation | agent briefs, repo checks, command workflows, small scripts | cheaper multi-agent loops without token bonfires |
+| Hardware | PC parts, repair triage, console/device cleaning and modding | repeatable diagnostics and cleaner service notes |
+| Games | configs, modding, performance tuning, Source/Valve weirdness | reusable public config packs and explainers |
+| Docs | compact READMEs, usage notes, tests, rollback sections | better proof sections and less ceremonial wording |
 
 <div align="center">
+  <img src="./assets/noise-divider.svg" alt="divider" width="100%">
+</div>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=M0KA907&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&title_color=f59e0b&text_color=e5e7eb&icon_color=8b5cf6" alt="M0KA907 GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=M0KA907&layout=compact&hide_border=true&theme=transparent&title_color=f59e0b&text_color=e5e7eb" alt="M0KA907 top languages" />
+## Operating rules
 
+```txt
+01  load before pretty
+02  readable before clever
+03  static fallback before API garnish
+04  one useful file beats six decorative panels
+05  delete duplicate UI before adding motion
+06  commit small, write rollback, test the ugly path
+07  documentation is part of the machine
+08  if it needs a dashboard to explain itself, simplify it
+```
+
+## Current signal
+
+<details>
+<summary><strong>Terminal notes</strong></summary>
+
+```txt
+$ ./focus --now
+> ship small fixes
+> keep websites readable on mobile
+> stop stacking effects until the layout works
+> build reusable agent harnesses for cheap local/client web work
+> keep public repos understandable enough for strangers and tired future-me
+```
+
+</details>
+
+<details>
+<summary><strong>What to send if you want help</strong></summary>
+
+```txt
+problem:        what is broken or what you want built
+platform:       windows / arch / phone / github pages / browser / console / other
+repo or file:   link it if it exists
+constraints:    deadline, budget, device limits, must-not-break items
+done means:     the observable finish line
+```
+
+</details>
+
+## Stats, but not the point
+
+External cards sometimes fail. The profile still says what it needs to say without them.
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=M0KA907&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&title_color=f59e0b&text_color=e5e7eb&icon_color=fb7185" alt="M0KA907 GitHub stats">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=M0KA907&layout=compact&hide_border=true&theme=transparent&title_color=f59e0b&text_color=e5e7eb" alt="M0KA907 top languages">
 </div>
 
 ---
 
-## Contact / surface
-
-- Portfolio: **[m0ka907.github.io](https://m0ka907.github.io/)**
-- GitHub: **[@M0KA907](https://github.com/M0KA907)**
-
-For project work, send the problem, the target platform, the repo/link, the deadline, and what “done” means. Vague requests get turned into checklists first.
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=95&section=footer&color=0:f59e0b,45:7c3aed,100:0f172a" alt="footer wave" />
+`patched denim workstation // cheap tools // sharp docs // static pages that survive bad weather`
+
+**[m0ka907.github.io](https://m0ka907.github.io/)**
 
 </div>
