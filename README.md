@@ -1,50 +1,34 @@
-<!--
-  M0KA907 profile README.
-  Monochrome, static, no external widgets.
--->
+<!-- M0KA907 profile README: static, monochrome, no widgets. -->
 
-<div align="center">
-  <img src="./assets/m0ka-terminal-banner.svg" alt="M0KA907 — linux, static web, shell, mods, repairs" width="100%">
-</div>
+<p align="center">
+  <img src="./assets/m0ka-terminal-banner.svg" alt="M0KA907" width="100%">
+</p>
 
 # Dawn / M0KA
 
-I build small systems that are easy to read, fix, and roll back.
+small tools. static sites. linux fixes. game configs. repair notes.
 
 ```txt
-linux tools        arch / i3 / shell / package habits
-static web         github pages / portfolios / mobile cleanup
-modding            games / devices / configs / repair paths
-automation         repo checks / task briefs / repeatable commands
-documentation      usage / assumptions / tests / rollback
+arch / i3 / shell
+github pages / html / css / js
+mods / devices / pc repair
+short docs / rollback
 ```
 
-Most of my work is plain on purpose: fewer moving parts, less dashboard noise, no dependency on broken profile widgets.
+[site](https://m0ka907.github.io/) / [github](https://github.com/M0KA907)
 
-<div align="center">
+<p align="center">
   <img src="./assets/noise-divider.svg" alt="divider" width="100%">
-</div>
+</p>
 
-## Public work
+## public
 
-- [`M0KA907.github.io`](https://github.com/M0KA907/M0KA907.github.io) — portfolio and static-site work.
-- [`Beer`](https://github.com/M0KA907/Beer) — small Linux toy/tool with real packaging habits.
-- [`Mokalc`](https://github.com/M0KA907/Mokalc) — small utility/tooling repo.
-
-WIP repos stay off the front page until they are worth judging.
-
-<div align="center">
-  <img src="./assets/noise-divider.svg" alt="divider" width="100%">
-</div>
-
-## Rules
+- [`M0KA907.github.io`](https://github.com/M0KA907/M0KA907.github.io)
+- [`Beer`](https://github.com/M0KA907/Beer)
+- [`Mokalc`](https://github.com/M0KA907/Mokalc)
 
 ```txt
-load before pretty
-readable before clever
-fallback before API garnish
-one useful file beats six decorative panels
-commit small, test the ugly path, write rollback
+no widgets
+no dashboards
+no mystery dependencies
 ```
-
-[portfolio](https://m0ka907.github.io/) · [github](https://github.com/M0KA907)
