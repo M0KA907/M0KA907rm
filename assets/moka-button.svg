@@ -1,50 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="178" viewBox="0 0 820 178" role="img" aria-labelledby="title desc">
-  <title id="title">M0KA907 neon sign</title>
-  <desc id="desc">A neon sign reading M0KA907, styled after the portfolio cards.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="210" viewBox="0 0 900 210" role="img" aria-label="M0KA907">
   <defs>
-    <linearGradient id="cardFill" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#141821"/>
-      <stop offset="0.45" stop-color="#080b12"/>
-      <stop offset="1" stop-color="#11131a"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#211631"/>
+      <stop offset="0.5" stop-color="#09070d"/>
+      <stop offset="1" stop-color="#1a1228"/>
     </linearGradient>
-    <linearGradient id="edge" x1="0" x2="1">
-      <stop offset="0" stop-color="#00f0ff" stop-opacity="0.9"/>
-      <stop offset="0.56" stop-color="#fcee0a" stop-opacity="0.76"/>
-      <stop offset="1" stop-color="#ff003c" stop-opacity="0.82"/>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f2ebff"/>
+      <stop offset="0.5" stop-color="#b892ff"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
     </linearGradient>
-    <linearGradient id="letter" x1="0" x2="1">
+    <linearGradient id="word" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="0.5" stop-color="#dffcff"/>
-      <stop offset="1" stop-color="#ffe66d"/>
+      <stop offset="0.5" stop-color="#efe4ff"/>
+      <stop offset="1" stop-color="#cab3ff"/>
     </linearGradient>
-    <filter id="glow" x="-35%" y="-85%" width="170%" height="270%">
-      <feGaussianBlur stdDeviation="2" result="a"/>
-      <feGaussianBlur stdDeviation="7" result="b"/>
-      <feGaussianBlur stdDeviation="16" result="c"/>
-      <feMerge>
-        <feMergeNode in="c"/>
-        <feMergeNode in="b"/>
-        <feMergeNode in="a"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <filter id="grain" x="-10%" y="-20%" width="120%" height="140%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="2" stitchTiles="stitch"/>
-      <feColorMatrix type="saturate" values="0"/>
-      <feComponentTransfer><feFuncA type="table" tableValues="0 0.05"/></feComponentTransfer>
-      <feBlend mode="screen" in2="SourceGraphic"/>
-    </filter>
-    <style>
-      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,Liberation Mono,monospace}
-      .name{font-size:78px;font-weight:900;letter-spacing:8px}
-    </style>
   </defs>
-  <path d="M24 2H784L818 36V154L794 176H36L2 142V24Z" fill="url(#cardFill)" stroke="url(#edge)" stroke-width="2.4"/>
-  <path d="M38 18H776L802 44V144L784 160H46L18 132V34Z" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.5"/>
-  <path d="M38 18H190M628 18H776M18 34V84M802 92V144M46 160H192M620 160H784" stroke="#00f0ff" stroke-opacity="0.42" stroke-width="2"/>
-  <path d="M38 18H122M698 18H776M18 116V132M722 160H784" stroke="#fcee0a" stroke-opacity="0.5" stroke-width="2"/>
-  <path d="M26 132L46 152M774 26L794 46" stroke="#ff003c" stroke-opacity="0.58" stroke-width="2"/>
-  <text class="mono name" x="410" y="113" text-anchor="middle" fill="url(#letter)" stroke="#00f0ff" stroke-width="0.9" filter="url(#glow)">M0KA907</text>
-  <text class="mono name" x="410" y="113" text-anchor="middle" fill="none" stroke="#ff2a9d" stroke-width="0.85" opacity="0.5">M0KA907</text>
-  <rect x="24" y="2" width="772" height="174" fill="transparent" filter="url(#grain)" opacity="0.35"/>
+  <rect width="900" height="210" rx="30" fill="#050409"/>
+  <path d="M40 16H830L884 70V160L846 198H56L18 160V44Z" fill="#000000" opacity="0.55"/>
+  <path d="M30 6H840L896 62V164L856 204H44L6 166V36Z" fill="url(#bg)" stroke="url(#edge)" stroke-width="5"/>
+  <path d="M52 26H822L872 76V150L840 184H62L28 152V54Z" fill="#140f1e" stroke="#f2ebff" stroke-opacity="0.16" stroke-width="2"/>
+  <path d="M64 42H810" stroke="#ffffff" stroke-opacity="0.10" stroke-width="2"/>
+  <path d="M64 171H836" stroke="#000000" stroke-opacity="0.38" stroke-width="3"/>
+  <path d="M52 26H210M700 26H822M28 54V118M872 92V150M62 184H218M692 184H840" stroke="#b892ff" stroke-width="4" opacity="0.88"/>
+  <path d="M52 26H132M758 26H822M28 136V152M758 184H840" stroke="#f2ebff" stroke-width="3" opacity="0.82"/>
+  <path d="M38 150L64 184M836 38L862 64" stroke="#8b5cf6" stroke-width="4" opacity="0.95"/>
+  <text x="450" y="132" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="96" font-weight="900" letter-spacing="11" fill="#8b5cf6" opacity="0.35">M0KA907</text>
+  <text x="454" y="135" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="96" font-weight="900" letter-spacing="11" fill="#000000" opacity="0.45">M0KA907</text>
+  <text x="450" y="132" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="96" font-weight="900" letter-spacing="11" fill="url(#word)" stroke="#f8f3ff" stroke-width="0.9">M0KA907</text>
 </svg>
