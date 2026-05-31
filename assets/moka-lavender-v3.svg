@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="210" viewBox="0 0 900 210">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#09070d"/>
+      <stop offset="0.5" stop-color="#120f18"/>
+      <stop offset="1" stop-color="#07060b"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#1b1624"/>
+      <stop offset="0.55" stop-color="#0f0c16"/>
+      <stop offset="1" stop-color="#17131f"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" x2="1">
+      <stop offset="0" stop-color="#f2ebff"/>
+      <stop offset="0.42" stop-color="#c7a7ff"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="letters" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.48" stop-color="#efe4ff"/>
+      <stop offset="1" stop-color="#ceb6ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="180%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+    <filter id="glow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="g1"/>
+      <feGaussianBlur stdDeviation="14" result="g2"/>
+      <feMerge>
+        <feMergeNode in="g2"/>
+        <feMergeNode in="g1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,Liberation Mono,monospace}
+      .name{font-size:96px;font-weight:900;letter-spacing:11px}
+    </style>
+  </defs>
+  <rect width="900" height="210" rx="30" fill="url(#bg)"/>
+  <path d="M32 6H840L896 60V164L858 204H44L6 166V38Z" fill="url(#panel)" stroke="url(#edge)" stroke-width="5" filter="url(#shadow)"/>
+  <path d="M52 26H824L872 74V152L842 184H60L28 152V54Z" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="2"/>
+  <path d="M52 26H210M700 26H824M28 54V118M872 92V152M60 184H206M692 184H842" stroke="#b892ff" stroke-width="4" opacity="0.82"/>
+  <path d="M52 26H130M760 26H824M28 136V152M760 184H842" stroke="#efe4ff" stroke-width="3" opacity="0.82"/>
+  <path d="M38 150L64 184M836 38L862 64" stroke="#8b5cf6" stroke-width="4" opacity="0.95"/>
+  <path d="M60 40H820" stroke="#ffffff" stroke-opacity="0.08" stroke-width="2"/>
+  <path d="M64 170H836" stroke="#000000" stroke-opacity="0.24" stroke-width="2"/>
+  <text class="mono name" x="450" y="132" text-anchor="middle" fill="#a97cff" opacity="0.28">M0KA907</text>
+  <text class="mono name" x="450" y="132" text-anchor="middle" fill="none" stroke="#8b5cf6" stroke-width="1.5" opacity="0.9" filter="url(#glow)">M0KA907</text>
+  <text class="mono name" x="450" y="132" text-anchor="middle" fill="url(#letters)" stroke="#f8f3ff" stroke-width="0.9">M0KA907</text>
+</svg>
