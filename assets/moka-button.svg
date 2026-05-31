@@ -1,11 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="780" height="170" viewBox="0 0 780 170" role="img" aria-labelledby="title desc">
-  <title id="title">M0KA907 neon portfolio button</title>
-  <desc id="desc">A minimal neon sign reading M0KA907, used as a link to the portfolio.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="178" viewBox="0 0 820 178" role="img" aria-labelledby="title desc">
+  <title id="title">M0KA907 neon sign</title>
+  <desc id="desc">A neon sign reading M0KA907, styled after the portfolio cards.</desc>
   <defs>
-    <filter id="pinkGlow" x="-40%" y="-80%" width="180%" height="260%">
-      <feGaussianBlur stdDeviation="2.5" result="a"/>
+    <linearGradient id="cardFill" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#151923"/>
+      <stop offset="0.42" stop-color="#080b12"/>
+      <stop offset="1" stop-color="#11141d"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" x2="1">
+      <stop offset="0" stop-color="#00f0ff" stop-opacity="0.9"/>
+      <stop offset="0.55" stop-color="#fcee0a" stop-opacity="0.78"/>
+      <stop offset="1" stop-color="#ff003c" stop-opacity="0.82"/>
+    </linearGradient>
+    <linearGradient id="letter" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.48" stop-color="#dffcff"/>
+      <stop offset="1" stop-color="#ffe66d"/>
+    </linearGradient>
+    <filter id="cyanGlow" x="-35%" y="-85%" width="170%" height="270%">
+      <feGaussianBlur stdDeviation="2" result="a"/>
       <feGaussianBlur stdDeviation="7" result="b"/>
-      <feGaussianBlur stdDeviation="16" result="c"/>
+      <feGaussianBlur stdDeviation="18" result="c"/>
       <feMerge>
         <feMergeNode in="c"/>
         <feMergeNode in="b"/>
@@ -13,27 +28,26 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <filter id="paper">
-      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+    <filter id="grain" x="-10%" y="-20%" width="120%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="2" stitchTiles="stitch"/>
       <feColorMatrix type="saturate" values="0"/>
-      <feComponentTransfer><feFuncA type="table" tableValues="0 0.08"/></feComponentTransfer>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 0.06"/></feComponentTransfer>
       <feBlend mode="screen" in2="SourceGraphic"/>
     </filter>
     <style>
       .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,Liberation Mono,monospace}
-      .name{font-size:74px;font-weight:900;letter-spacing:9px}
-      .small{font-size:13px;letter-spacing:4px}
+      .name{font-size:78px;font-weight:900;letter-spacing:8px}
     </style>
   </defs>
 
-  <rect width="780" height="170" rx="16" fill="#050507"/>
-  <rect x="16" y="16" width="748" height="138" rx="10" fill="none" stroke="#f5f5f5" stroke-width="3" opacity="0.9"/>
-  <rect x="25" y="25" width="730" height="120" rx="6" fill="none" stroke="#ff2a9d" stroke-width="2" opacity="0.8" filter="url(#pinkGlow)"/>
-  <path d="M44 44l-24-24M736 44l24-24M44 126l-24 24M736 126l24 24" stroke="#f5f5f5" stroke-width="4" opacity="0.75"/>
+  <path d="M24 2H784L818 36V154L794 176H36L2 142V24Z" fill="url(#cardFill)" stroke="url(#edge)" stroke-width="2.4"/>
+  <path d="M38 18H776L802 44V144L784 160H46L18 132V34Z" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.5"/>
+  <path d="M38 18H190M628 18H776M18 34V84M802 92V144M46 160H192M620 160H784" stroke="#00f0ff" stroke-opacity="0.42" stroke-width="2"/>
+  <path d="M38 18H122M698 18H776M18 116V132M722 160H784" stroke="#fcee0a" stroke-opacity="0.5" stroke-width="2"/>
+  <path d="M26 132L46 152M774 26L794 46" stroke="#ff003c" stroke-opacity="0.6" stroke-width="2"/>
 
-  <text class="mono small" x="54" y="52" fill="#f5f5f5" opacity="0.82">PORTFOLIO</text>
-  <text class="mono name" x="54" y="116" fill="#ffffff" stroke="#ff2a9d" stroke-width="1.1" filter="url(#pinkGlow)">M0KA907</text>
-  <text class="mono small" x="557" y="135" fill="#9ffcff" filter="url(#pinkGlow)">CLICK</text>
+  <text class="mono name" x="410" y="113" text-anchor="middle" fill="url(#letter)" stroke="#00f0ff" stroke-width="0.9" filter="url(#cyanGlow)">M0KA907</text>
+  <text class="mono name" x="410" y="113" text-anchor="middle" fill="none" stroke="#ff2a9d" stroke-width="0.85" opacity="0.55">M0KA907</text>
 
-  <rect width="780" height="170" filter="url(#paper)" opacity="0.36"/>
+  <rect x="24" y="2" width="772" height="174" fill="transparent" filter="url(#grain)" opacity="0.42"/>
 </svg>
