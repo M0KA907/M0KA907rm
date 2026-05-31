@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">M0KA907 workbench card</title>
+  <desc id="desc">Terminal-style skill board with zine texture.</desc>
+  <defs>
+    <linearGradient id="rim" x1="0" x2="1">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="0.55" stop-color="#f59e0b"/>
+      <stop offset="1" stop-color="#fb7185"/>
+    </linearGradient>
+    <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#f8fafc" opacity="0.18"/>
+    </pattern>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,Liberation Mono,monospace}
+      .h{font-size:24px;font-weight:900;letter-spacing:2px}
+      .b{font-size:18px;letter-spacing:1px}
+      .s{font-size:14px;letter-spacing:1.2px}
+    </style>
+  </defs>
+  <rect width="1200" height="300" rx="22" fill="#08080d" stroke="url(#rim)" stroke-width="3"/>
+  <rect x="12" y="12" width="1176" height="276" rx="16" fill="url(#dots)"/>
+  <g transform="translate(42 45)">
+    <text class="mono h" fill="#fbbf24" x="0" y="0">WORKBENCH / NOT A MOODBOARD</text>
+    <text class="mono s" fill="#a7f3d0" x="0" y="30">tools that run, pages that load, docs that survive a tired future self</text>
+  </g>
+  <g transform="translate(54 100)">
+    <rect width="250" height="128" rx="14" fill="#111827" stroke="#a78bfa"/>
+    <text class="mono h" fill="#f8fafc" x="22" y="42">LINUX</text>
+    <text class="mono b" fill="#d1d5db" x="22" y="76">Arch, i3, shell</text>
+    <text class="mono s" fill="#fb7185" x="22" y="104">fix first, rice later</text>
+  </g>
+  <g transform="translate(336 100)">
+    <rect width="250" height="128" rx="14" fill="#111827" stroke="#f59e0b"/>
+    <text class="mono h" fill="#f8fafc" x="22" y="42">WEB</text>
+    <text class="mono b" fill="#d1d5db" x="22" y="76">static, fast, legible</text>
+    <text class="mono s" fill="#a7f3d0" x="22" y="104">fallbacks are features</text>
+  </g>
+  <g transform="translate(618 100)">
+    <rect width="250" height="128" rx="14" fill="#111827" stroke="#fb7185"/>
+    <text class="mono h" fill="#f8fafc" x="22" y="42">MODDING</text>
+    <text class="mono b" fill="#d1d5db" x="22" y="76">games, devices, configs</text>
+    <text class="mono s" fill="#fbbf24" x="22" y="104">break it where it counts</text>
+  </g>
+  <g transform="translate(900 100)">
+    <rect width="250" height="128" rx="14" fill="#111827" stroke="#a7f3d0"/>
+    <text class="mono h" fill="#f8fafc" x="22" y="42">DOCS</text>
+    <text class="mono b" fill="#d1d5db" x="22" y="76">usage, tests, rollback</text>
+    <text class="mono s" fill="#a78bfa" x="22" y="104">future-proof the chaos</text>
+  </g>
+  <text class="mono s" fill="#f8fafc" opacity="0.45" x="54" y="264">M0KA907 // patched hoodie engineering // fluorescent CRT bruise palette // practical over precious</text>
+</svg>
