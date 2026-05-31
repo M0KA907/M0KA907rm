@@ -3,24 +3,24 @@
   <desc id="desc">A neon sign reading M0KA907, styled after the portfolio cards.</desc>
   <defs>
     <linearGradient id="cardFill" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#151923"/>
-      <stop offset="0.42" stop-color="#080b12"/>
-      <stop offset="1" stop-color="#11141d"/>
+      <stop offset="0" stop-color="#141821"/>
+      <stop offset="0.45" stop-color="#080b12"/>
+      <stop offset="1" stop-color="#11131a"/>
     </linearGradient>
     <linearGradient id="edge" x1="0" x2="1">
       <stop offset="0" stop-color="#00f0ff" stop-opacity="0.9"/>
-      <stop offset="0.55" stop-color="#fcee0a" stop-opacity="0.78"/>
+      <stop offset="0.56" stop-color="#fcee0a" stop-opacity="0.76"/>
       <stop offset="1" stop-color="#ff003c" stop-opacity="0.82"/>
     </linearGradient>
     <linearGradient id="letter" x1="0" x2="1">
       <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="0.48" stop-color="#dffcff"/>
+      <stop offset="0.5" stop-color="#dffcff"/>
       <stop offset="1" stop-color="#ffe66d"/>
     </linearGradient>
-    <filter id="cyanGlow" x="-35%" y="-85%" width="170%" height="270%">
+    <filter id="glow" x="-35%" y="-85%" width="170%" height="270%">
       <feGaussianBlur stdDeviation="2" result="a"/>
       <feGaussianBlur stdDeviation="7" result="b"/>
-      <feGaussianBlur stdDeviation="18" result="c"/>
+      <feGaussianBlur stdDeviation="16" result="c"/>
       <feMerge>
         <feMergeNode in="c"/>
         <feMergeNode in="b"/>
@@ -31,7 +31,7 @@
     <filter id="grain" x="-10%" y="-20%" width="120%" height="140%">
       <feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="2" stitchTiles="stitch"/>
       <feColorMatrix type="saturate" values="0"/>
-      <feComponentTransfer><feFuncA type="table" tableValues="0 0.06"/></feComponentTransfer>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 0.05"/></feComponentTransfer>
       <feBlend mode="screen" in2="SourceGraphic"/>
     </filter>
     <style>
@@ -39,15 +39,12 @@
       .name{font-size:78px;font-weight:900;letter-spacing:8px}
     </style>
   </defs>
-
   <path d="M24 2H784L818 36V154L794 176H36L2 142V24Z" fill="url(#cardFill)" stroke="url(#edge)" stroke-width="2.4"/>
   <path d="M38 18H776L802 44V144L784 160H46L18 132V34Z" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.5"/>
   <path d="M38 18H190M628 18H776M18 34V84M802 92V144M46 160H192M620 160H784" stroke="#00f0ff" stroke-opacity="0.42" stroke-width="2"/>
   <path d="M38 18H122M698 18H776M18 116V132M722 160H784" stroke="#fcee0a" stroke-opacity="0.5" stroke-width="2"/>
-  <path d="M26 132L46 152M774 26L794 46" stroke="#ff003c" stroke-opacity="0.6" stroke-width="2"/>
-
-  <text class="mono name" x="410" y="113" text-anchor="middle" fill="url(#letter)" stroke="#00f0ff" stroke-width="0.9" filter="url(#cyanGlow)">M0KA907</text>
-  <text class="mono name" x="410" y="113" text-anchor="middle" fill="none" stroke="#ff2a9d" stroke-width="0.85" opacity="0.55">M0KA907</text>
-
-  <rect x="24" y="2" width="772" height="174" fill="transparent" filter="url(#grain)" opacity="0.42"/>
+  <path d="M26 132L46 152M774 26L794 46" stroke="#ff003c" stroke-opacity="0.58" stroke-width="2"/>
+  <text class="mono name" x="410" y="113" text-anchor="middle" fill="url(#letter)" stroke="#00f0ff" stroke-width="0.9" filter="url(#glow)">M0KA907</text>
+  <text class="mono name" x="410" y="113" text-anchor="middle" fill="none" stroke="#ff2a9d" stroke-width="0.85" opacity="0.5">M0KA907</text>
+  <rect x="24" y="2" width="772" height="174" fill="transparent" filter="url(#grain)" opacity="0.35"/>
 </svg>
