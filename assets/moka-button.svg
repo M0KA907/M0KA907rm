@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="150" viewBox="0 0 720 150" role="img" aria-labelledby="title desc">
+  <title id="title">MOKA button</title>
+  <desc id="desc">A black and white crust punk style name button.</desc>
+  <defs>
+    <filter id="paper">
+      <feTurbulence type="fractalNoise" baseFrequency="0.95" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 0.05"/></feComponentTransfer>
+      <feBlend mode="multiply" in2="SourceGraphic"/>
+    </filter>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,Liberation Mono,monospace}
+      .big{font-size:70px;font-weight:900;letter-spacing:8px}
+      .small{font-size:14px;letter-spacing:2px}
+    </style>
+  </defs>
+  <rect width="720" height="150" fill="#fff"/>
+  <rect x="18" y="18" width="684" height="114" fill="#fff" stroke="#000" stroke-width="5"/>
+  <path d="M18 48H702M18 102H702" stroke="#000" stroke-width="2"/>
+  <path d="M42 36l-24-24M678 36l24-24M42 114l-24 24M678 114l24 24" stroke="#000" stroke-width="5"/>
+  <text class="mono small" x="48" y="40" fill="#000">M0KA907</text>
+  <text class="mono big" x="48" y="96" fill="#000">MOKA</text>
+  <text class="mono small" x="445" y="122" fill="#000">PORTFOLIO / WORK</text>
+  <g transform="translate(610 48)">
+    <circle cx="30" cy="30" r="28" fill="#000"/>
+    <path d="M30 6l6 18 19-6-13 15 15 13-20-5-7 19-7-19-20 5 15-13-13-15 19 6z" fill="#fff"/>
+    <path d="M17 19l28 28M45 17L17 48M9 32h44" stroke="#000" stroke-width="4"/>
+  </g>
+  <rect width="720" height="150" fill="#fff" filter="url(#paper)" opacity="0.22"/>
+</svg>
