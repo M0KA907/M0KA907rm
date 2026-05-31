@@ -1,51 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-  <title id="title">M0KA907 workbench card</title>
-  <desc id="desc">Terminal-style skill board with photocopied texture.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
+  <title id="title">M0KA907 minimal workbench card</title>
+  <desc id="desc">A black and white terminal-style skill board.</desc>
   <defs>
-    <linearGradient id="rim" x1="0" x2="1">
-      <stop offset="0" stop-color="#8b5cf6"/>
-      <stop offset="0.55" stop-color="#f59e0b"/>
-      <stop offset="1" stop-color="#fb7185"/>
-    </linearGradient>
-    <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#f8fafc" opacity="0.18"/>
+    <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#000" opacity="0.14"/>
     </pattern>
     <style>
       .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,Liberation Mono,monospace}
-      .h{font-size:24px;font-weight:900;letter-spacing:2px}
-      .b{font-size:18px;letter-spacing:1px}
-      .s{font-size:14px;letter-spacing:1.2px}
+      .h{font-size:22px;font-weight:900;letter-spacing:2px}
+      .b{font-size:16px;letter-spacing:1px}
+      .s{font-size:13px;letter-spacing:1.2px}
     </style>
   </defs>
-  <rect width="1200" height="300" rx="22" fill="#08080d" stroke="url(#rim)" stroke-width="3"/>
-  <rect x="12" y="12" width="1176" height="276" rx="16" fill="url(#dots)"/>
-  <g transform="translate(42 45)">
-    <text class="mono h" fill="#fbbf24" x="0" y="0">WORKBENCH / SMALL SYSTEMS</text>
-    <text class="mono s" fill="#a7f3d0" x="0" y="30">tools that run, pages that load, notes that still make sense later</text>
+  <rect width="1200" height="220" fill="#fff" stroke="#000" stroke-width="4"/>
+  <rect x="12" y="12" width="1176" height="196" fill="url(#dots)"/>
+  <path d="M12 58H1188M302 58V208M596 58V208M890 58V208" stroke="#000" stroke-width="3"/>
+  <text class="mono h" fill="#000" x="34" y="38">WORKBENCH</text>
+  <text class="mono s" fill="#000" x="194" y="37">small systems, plain files, fast rollback</text>
+
+  <g transform="translate(34 92)">
+    <text class="mono h" fill="#000" x="0" y="0">LINUX</text>
+    <text class="mono b" fill="#000" x="0" y="34">Arch, i3, shell</text>
+    <text class="mono s" fill="#000" x="0" y="66">desktop repair, packages</text>
   </g>
-  <g transform="translate(54 100)">
-    <rect width="250" height="128" rx="14" fill="#111827" stroke="#a78bfa"/>
-    <text class="mono h" fill="#f8fafc" x="22" y="42">LINUX</text>
-    <text class="mono b" fill="#d1d5db" x="22" y="76">Arch, i3, shell</text>
-    <text class="mono s" fill="#fb7185" x="22" y="104">logs before lore</text>
+  <g transform="translate(330 92)">
+    <text class="mono h" fill="#000" x="0" y="0">WEB</text>
+    <text class="mono b" fill="#000" x="0" y="34">static pages</text>
+    <text class="mono s" fill="#000" x="0" y="66">fallbacks, mobile cleanup</text>
   </g>
-  <g transform="translate(336 100)">
-    <rect width="250" height="128" rx="14" fill="#111827" stroke="#f59e0b"/>
-    <text class="mono h" fill="#f8fafc" x="22" y="42">WEB</text>
-    <text class="mono b" fill="#d1d5db" x="22" y="76">static, fast, legible</text>
-    <text class="mono s" fill="#a7f3d0" x="22" y="104">fallbacks count</text>
+  <g transform="translate(624 92)">
+    <text class="mono h" fill="#000" x="0" y="0">MODS</text>
+    <text class="mono b" fill="#000" x="0" y="34">games, devices</text>
+    <text class="mono s" fill="#000" x="0" y="66">configs, repair paths</text>
   </g>
-  <g transform="translate(618 100)">
-    <rect width="250" height="128" rx="14" fill="#111827" stroke="#fb7185"/>
-    <text class="mono h" fill="#f8fafc" x="22" y="42">MODDING</text>
-    <text class="mono b" fill="#d1d5db" x="22" y="76">games, devices, configs</text>
-    <text class="mono s" fill="#fbbf24" x="22" y="104">measure the change</text>
+  <g transform="translate(918 92)">
+    <text class="mono h" fill="#000" x="0" y="0">DOCS</text>
+    <text class="mono b" fill="#000" x="0" y="34">usage, tests</text>
+    <text class="mono s" fill="#000" x="0" y="66">write the rollback</text>
   </g>
-  <g transform="translate(900 100)">
-    <rect width="250" height="128" rx="14" fill="#111827" stroke="#a7f3d0"/>
-    <text class="mono h" fill="#f8fafc" x="22" y="42">DOCS</text>
-    <text class="mono b" fill="#d1d5db" x="22" y="76">usage, tests, rollback</text>
-    <text class="mono s" fill="#a78bfa" x="22" y="104">leave a map</text>
-  </g>
-  <text class="mono s" fill="#f8fafc" opacity="0.45" x="54" y="264">M0KA907 // fast enough to use // plain enough to fix // public work stays selective</text>
 </svg>
