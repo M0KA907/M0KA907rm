@@ -21,18 +21,18 @@
 
 ## M0KA
 
-> **Static sites, small tools, Linux fixes, game configs, and repo cleanup.**
+> **Device cleanouts, static-site repair, drop-in upgrades, repo cleanup, and small workflow tools.**
 
-I build **fast static websites, small web tools, Linux fix scripts, game configs, and clean repo documentation**.
+I handle **practical computer help for people and tiny businesses**: device cleanouts, drop-in upgrades, static website repair, repo cleanup, and small scripts/workflows that remove repeated chores.
 
-I’m useful when a project needs to be made understandable, shippable, and cheap to host.
+I’m useful when a setup needs to be made understandable, shippable, cheaper to host, or easier to maintain.
 
 ```txt
 ╭─ moka@github ─────────────────────────────────────────────╮
-│ focus     static web · docs · Linux · game configs        │
+│ focus     static repair · device help · docs · workflows  │
 │ stack     HTML/CSS/JS · Bash · GitHub Pages · Markdown    │
-│ style     fast · weird · readable · reproducible          │
-│ output    small patches · plain files · rollback notes    │
+│ style     scoped · readable · reproducible · reversible   │
+│ output    plain files · small scripts · repair notes      │
 ╰───────────────────────────────────────────────────────────╯
 ```
 
@@ -65,9 +65,9 @@ I’m useful when a project needs to be made understandable, shippable, and chea
   </tr>
   <tr>
     <td width="50%">
-      <h3>▣ Linux / tech support</h3>
-      <p>Fix notes, setup scripts, troubleshooting docs, reproducible commands, rollback steps.</p>
-      <p><code>Arch</code> <code>Bash</code> <code>Git</code> <code>docs</code></p>
+      <h3>▣ Device / tech support</h3>
+      <p>Cleanout notes, drop-in upgrade planning, troubleshooting docs, reproducible commands, rollback steps.</p>
+      <p><code>Arch</code> <code>Windows</code> <code>Bash</code> <code>docs</code></p>
     </td>
     <td width="50%">
       <h3>▣ Repo cleanup</h3>
@@ -88,7 +88,7 @@ I’m useful when a project needs to be made understandable, shippable, and chea
 | **Automation** | Bash, config files, repeatable commands, small utilities |
 | **GitHub** | Pages hosting, issues, PRs, README work, repo hygiene |
 | **Docs** | Markdown, setup guides, rollback notes, agent instructions |
-| **Game tech** | Source/GoldSrc configs, L4D2/CS tuning, mod notes |
+| **Interactive UI** | Browser game interfaces, timers, keyboard/drag controls |
 | **Languages** | English primary; Ukrainian learner; Mandarin learner |
 
 ---
@@ -118,7 +118,7 @@ I’m useful when a project needs to be made understandable, shippable, and chea
   <tr>
     <td width="50%">
       <h3><a href="https://github.com/M0KA907/websort">websort</a></h3>
-      <p>Browser game concept: Tower of Hanoi as a cybercore sorting interface.</p>
+      <p>Playable generalized Tower of Hanoi browser game with typed N x M boards, speedsolve timer, drag/keyboard controls, and cybercore UI.</p>
       <p>
         <img alt="Web" src="https://img.shields.io/badge/Web-game-9370db?style=flat-square">
         <img alt="UI" src="https://img.shields.io/badge/UI-cybercore-ff69b4?style=flat-square">
@@ -126,7 +126,7 @@ I’m useful when a project needs to be made understandable, shippable, and chea
     </td>
     <td width="50%">
       <h3><a href="https://github.com/M0KA907/Mokalc">Mokalc</a></h3>
-      <p>Utility/project space for compact experiments and calculator-style tooling.</p>
+      <p>Optimized command-line calculator written in C: compact, fast, and built to show clean small-tool structure.</p>
       <p>
         <img alt="Utility" src="https://img.shields.io/badge/Utility-small_tool-7c3aed?style=flat-square">
         <img alt="Docs" src="https://img.shields.io/badge/Docs-readable-111827?style=flat-square&logo=markdown&logoColor=white">
@@ -156,5 +156,5 @@ For small site work, Linux help, repo cleanup, or static tools:
 </p>
 
 ```txt
-small tools. static sites. linux fixes. game configs. repair notes.
+small tools. static sites. device cleanup. workflow scripts. repair notes.
 ```
