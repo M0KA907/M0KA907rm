@@ -1,10 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="142" height="38" viewBox="0 0 142 38" role="img" aria-labelledby="title desc">
-  <title id="title">Portfolio</title>
-  <desc id="desc">Flat monochrome portfolio button with a slight rightward bevel.</desc>
-  <path d="M5.25 1.25h132l3.5 3.5v32h-132l-7.5-3.5v-32z" fill="#d8d8cf" stroke="#111" stroke-width="1.5" vector-effect="non-scaling-stroke"/>
-  <path d="M1.25 1.25h136v32h-136z" fill="#f8f8f1" stroke="#111" stroke-width="1.5" vector-effect="non-scaling-stroke"/>
-  <path d="M137.25 1.25l3.5 3.5v32l-3.5-3.5z" fill="#d8d8cf" stroke="#111" stroke-width="1.5" vector-effect="non-scaling-stroke"/>
-  <path d="M1.25 33.25h136l3.5 3.5h-132z" fill="#c9c9bf" stroke="#111" stroke-width="1.5" vector-effect="non-scaling-stroke"/>
-  <path d="M6 6.5h126" fill="none" stroke="#fff" stroke-width="1" opacity="0.72" vector-effect="non-scaling-stroke"/>
-  <text x="68.5" y="23.25" text-anchor="middle" fill="#111" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,Liberation Mono,monospace" font-size="12" font-weight="600" letter-spacing="1.45">PORTFOLIO</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="142" height="38" viewBox="0 0 142 38" role="img" aria-label="Portfolio"><path d="M5.25 1.25h132l3.5 3.5v32h-132l-7.5-3.5v-32z" fill="#08060D" stroke="#A288E3" stroke-width="1.5" vector-effect="non-scaling-stroke"/><path d="M1.25 1.25h136v32h-136z" fill="#171025" stroke="#A288E3" stroke-width="1.5" vector-effect="non-scaling-stroke"/><path d="M137.25 1.25l3.5 3.5v32l-3.5-3.5z" fill="#0B0812" stroke="#6E58AD" stroke-width="1.5" vector-effect="non-scaling-stroke"/><path d="M1.25 33.25h136l3.5 3.5h-132z" fill="#06060A" stroke="#6E58AD" stroke-width="1.5" vector-effect="non-scaling-stroke"/><path d="M6 6.5h126" fill="none" stroke="#CFC7FF" stroke-width="1" opacity="0.72" vector-effect="non-scaling-stroke"/><path d="M6 28h126" fill="none" stroke="#55437C" stroke-width="1" opacity="0.78" vector-effect="non-scaling-stroke"/><text x="68.5" y="23.25" text-anchor="middle" fill="#F4F2FF" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,Liberation Mono,monospace" font-size="12" font-weight="600" letter-spacing="1.45">PORTFOLIO</text></svg>
