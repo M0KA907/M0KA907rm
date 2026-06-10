@@ -1,6 +1,3 @@
-<p align="center">
-  <samp>small software · repair-minded service</samp>
-</p>
 
 <br>
 
@@ -9,7 +6,10 @@
     <img src="./assets/moka-skeuo-hero.svg" alt="M0KA907" width="260">
   </a>
 </p>
-
+<p align="center">
+  <samp>small software · repair-minded service</samp>
+</p>
+<br>
 <p align="center">
   <a href="https://m0ka907.github.io/">
     <img src="./assets/moka-skeuo-portfolio.svg" alt="Portfolio" height="42">
