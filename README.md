@@ -1,8 +1,8 @@
 <p align="center">
   <samp>
-    small software · serious work
+    small software · repair-minded service
     <br>
-    static sites / terminal tools / linux notes / repair docs
+    site fixes / linux troubleshooting / configs / repair docs
   </samp>
 </p>
 
@@ -25,5 +25,5 @@
 </p>
 
 <p align="center">
-  <sub><i>no fake complexity · no dead weight</i></sub>
+  <sub><i>diagnose cleanly · fix reversibly · document plainly</i></sub>
 </p>
