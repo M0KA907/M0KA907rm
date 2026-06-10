@@ -28,15 +28,6 @@
   <samp>static sites / terminal tools / repair / troubleshooting</samp>
 </p>
 
-<br>
-
-<p align="center">
-  <img alt="static sites" src="https://img.shields.io/badge/static_sites-quote_ready-A288E3?style=flat-square&amp;labelColor=171025">
-  <img alt="terminal tools" src="https://img.shields.io/badge/terminal_tools-small_utilities-A288E3?style=flat-square&amp;labelColor=171025">
-  <img alt="repair" src="https://img.shields.io/badge/repair-diagnostics-A288E3?style=flat-square&amp;labelColor=171025">
-  <img alt="troubleshooting" src="https://img.shields.io/badge/troubleshooting-clean_fixes-A288E3?style=flat-square&amp;labelColor=171025">
-</p>
-
 <p align="center">
   <img alt="GitHub streak" width="420" src="https://streak-stats.demolab.com?user=M0KA907&amp;theme=dark&amp;hide_border=true&amp;background=171025&amp;stroke=A288E3&amp;ring=A288E3&amp;fire=CFC7FF&amp;currStreakNum=F4F2FF&amp;sideNums=F4F2FF&amp;currStreakLabel=A288E3&amp;sideLabels=A288E3&amp;dates=6E58AD">
 </p>
